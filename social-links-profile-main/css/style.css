@@ -87,5 +87,11 @@ body {
     color: var(--white);
     border-radius: 12px;
     text-decoration: none;
+    transition: background 0.3s ease-in-out;
 
+}
+
+.social ul li a:hover {
+    background-color: var(--green);
+    color: var(--grey);
 }
