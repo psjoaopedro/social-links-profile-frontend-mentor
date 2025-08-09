@@ -23,7 +23,8 @@ body {
 
 .container .card {
     background-color: var(--grey);
-    width: 355px;
+    max-width: 355px;
+    width: 100%;
     padding: 36px 28px;
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
@@ -70,11 +71,6 @@ body {
 }
 
 
-.social ul li {
-    width: 100%;
-}
-
-
 .social ul li a {
     font-size: .80rem;
     font-weight: 700;
@@ -87,7 +83,7 @@ body {
     color: var(--white);
     border-radius: 12px;
     text-decoration: none;
-    transition: background 0.3s ease-in-out;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
 
 }
 
